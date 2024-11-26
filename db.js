@@ -1,6 +1,6 @@
 const mongoose= require('mongoose');
 
-const mongoDB_URL=' mongodb://127.0.0.1:27017/CivilLoan';
+const mongoDB_URL='mongodb://127.0.0.1:27017/CivilLoan';
 
 mongoose.connect(mongoDB_URL,{
      useNewUrlParser:true,
