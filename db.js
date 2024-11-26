@@ -1,10 +1,8 @@
 const mongoose= require('mongoose');
 
-const mongoDB_URL='mongodb://127.0.0.1:27017/CivilLoan';
+const mongoDB_URL='mongodb+srv://Prathamesh:5ZvtJazQdwFG6yX7@cluster0.35m0yld.mongodb.net/NodeDB1?retryWrites=true&w=majority&appName=Cluster0';
 
-mongoose.connect(mongoDB_URL,{
-     useNewUrlParser:true,
-});
+mongoose.connect(mongoDB_URL);
 
 const db=mongoose.connection;
 
